@@ -1,0 +1,19 @@
+import = ["~/.config/alacritty/catppuccin-mocha.toml"]
+[[keyboard.bindings]]
+action = "ToggleViMode"
+key = "i"
+mode = "Vi"
+[[keyboard.bindings]]
+action = "ToggleViMode"
+key = "Escape"
+mode = "~Vi"
+mods = "Alt"
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "F11"
+[window]
+opacity = 1
+[font]
+normal.family = "JetBrainsMono NF"
+normal.style = "Regular"
+size =  12.0
